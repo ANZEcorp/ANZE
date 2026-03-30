@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ANZE corp</title>
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="logo">
+        <img src="assets/logo_with_our_name.png" alt="ANZE logo" class="logo-image" />
+      </a>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#members">Members</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-left reveal">
+        <span class="pill">Independent studio</span>
+        <h1>
+          Neon ideas.<br />
+          Real games.<br />
+          ANZE.
+        </h1>
+        <p class="hero-text">
+          ANZE is a game development team focused on identity, atmosphere, and
+          sharp concepts. We build projects with intention, style, and room to grow.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See projects</a>
+          <a href="#members" class="btn btn-secondary">Meet the team</a>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="hero-panel hero-panel-main">
+          <span class="panel-label">Current signal</span>
+          <h2>Something is coming.</h2>
+          <p>
+            A project is in development. The details stay hidden for now.
+          </p>
+          <div class="signal-line"></div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-panel stat-panel">
+            <span class="panel-label">Members</span>
+            <strong>4</strong>
+          </div>
+          <div class="hero-panel stat-panel">
+            <span class="panel-label">Published</span>
+            <strong>Soon</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section reveal">
+      <div class="section-top">
+        <span class="section-kicker">About</span>
+        <h2>Small team. Clear direction.</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="card">
+          <h3>Who we are</h3>
+          <p>
+            ANZE is a French video game team building original projects with a
+            strong visual identity and direct collaboration.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Our approach</h3>
+          <p>
+            We care about gameplay feel, memorable concepts, and improving from
+            one project to the next instead of making empty noise.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>What matters</h3>
+          <p>
+            Style, precision, momentum, and a result that actually feels like it
+            belongs to us.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="members" class="container section reveal">
+      <div class="section-top">
+        <span class="section-kicker">Members</span>
+        <h2>The people behind ANZE</h2>
+      </div>
+
+      <div class="members-grid" id="membersGrid"></div>
+    </section>
+
+    <section id="projects" class="container section reveal">
+      <div class="section-top">
+        <span class="section-kicker">Projects</span>
+        <h2>Current and future releases</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="card project-card mystery-card">
+          <span class="panel-label">In development</span>
+          <h3>Something</h3>
+          <p>
+            Still unnamed. Still hidden. Still moving.
+          </p>
+          <span class="status-tag">confidential</span>
+        </article>
+
+        <article class="card project-card">
+          <span class="panel-label">Published projects</span>
+          <h3>Nothing public yet</h3>
+          <p>
+            The first official ANZE release will appear here.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section reveal">
+      <div class="extra-grid">
+        <article class="card">
+          <h3>Studio identity</h3>
+          <p>
+            We want ANZE projects to feel distinct, not generic.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Development mindset</h3>
+          <p>
+            We prefer building, testing, refining, and shipping over pretending.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>What comes next</h3>
+          <p>
+            First release, stronger presence, and a clearer footprint with every project.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container section reveal">
+      <div class="contact-box">
+        <span class="section-kicker">Contact</span>
+        <h2>Reach ANZE</h2>
+
+        <div class="contact-buttons">
+          <a href="https://discord.gg/4jwq6cBTaG" target="_blank" class="contact-btn">
+            Discord
+          </a>
+
+          <a href="https://github.com/ANZEcorp" target="_blank" class="contact-btn">
+            GitHub
+          </a>
+
+          <a href="mailto:anze.corp@gmail.com" class="contact-btn">
+            Email
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
